@@ -8,7 +8,7 @@ header{
 header nav{
     width: 50%;
     float: right;
-    padding-top: 1.2%;  
+    margin-top: -3%;
 }
 header nav ul li {
     margin-right: 2%;
@@ -43,7 +43,20 @@ header h3
     color: white;
     text-align: center;
 }
-
+main h1{
+    text-align: center;
+    
+}
+main h2{
+    text-align: center;
+   
+}
+main h3{
+    text-align: center;
+}
+main h4{
+    text-align: center;
+}
 .visual-Argumento {
     width: 100%;
   
@@ -53,41 +66,50 @@ header h3
       ". ." 1.5fr
       ". ." 0fr
       / 1.5fr 2fr;
-    gap: 8px;
+    gap: 3px;
   }
-  
-  main div img { 
-    grid-area: imagen;
-    font-size: 150%;
- }
-
- .botones {
-    padding: 1%;
-   margin-left: -1%;
- 
-    width: 100%;
-
-
-  
-    display: flex;
-    gap: 16px;
-  }
-  
-  .grow1 { flex-grow: 1; }
-
-.botones div
-{
-    background-color: blueviolet;
+  .visual-Argumento h2
+  {
     text-align: center;
+  }
+  
+
+
+.botones {
+    padding: 1%;
+    margin-left: -1%;
+    display: flex;
+    gap: 8%;
+    justify-content: center;
+    align-items: center;
+    height: 20%; 
+}
+
+.botones div {
+    background-color: rgb(179, 172, 172);
+    text-align: center;
+    border-radius: 50%;
+    width: 20%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones div a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 240%;
 }
 
 .beneficios {
     width: 100%;
   
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr ;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    gap: 9px;
   }
   .beneficios div
   {
@@ -100,51 +122,36 @@ background-color: rgb(204, 31, 31);
 }
 
 .Pruebas-Sociales {
-    width: 100%;
-  
+    width: 101%;
+
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr ;
     gap: 8px;
+    
   }
  
   .Pruebas-Sociales div
   {
-    background-color: rgb(56, 56, 187);
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
     margin-top: 2%;
     border-radius: 10%;
     margin-bottom: 2%;
+    background: white;
+    border-radius: 0%;
+    box-shadow: 0px 0px 7px 10px rgba(0,0,0,0.06);
   }
 
-
-
-
-
-
-
-
-
-.productos {
-  
-    
-}
-
-.productos div {
-    
-   
-    
-}
-
-.productos img {
-   
-}
-
-.productos div p {
+.Pruebas-Sociales h1
+{
+    text-align: center;
 
 }
-
-
-
 
 
 
