@@ -1,0 +1,185 @@
+
+
+header{
+    background-color: black;
+    width: 100%;
+    display: inline-block;
+}
+header nav{
+    width: 50%;
+    float: right;
+    padding-top: 1.2%;  
+}
+header nav ul li {
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    list-style: none;
+    color: white;
+    float: right;
+    width: 20%;
+    border: 1px solid white;
+    padding: 1%;  
+    border-radius: 10px;    
+}
+header nav ul li a {
+    text-decoration: none;    
+    color: white;
+    text-align: center;    
+}
+header nav ul li:hover {
+    background-color: gray;
+}
+header nav ul li:active {
+    box-shadow: 0px 0px 10px white;
+}
+header h1
+{
+    color: white;
+    text-align: center;
+}
+header h3
+{
+    color: white;
+    text-align: center;
+}
+
+.visual-Argumento {
+    width: 100%;
+  
+    display: grid;
+    grid:
+      "imagen ." 1fr
+      ". ." 1.5fr
+      ". ." 0fr
+      / 1.5fr 2fr;
+    gap: 8px;
+  }
+  
+  main div img { 
+    grid-area: imagen;
+    font-size: 150%;
+ }
+
+ .botones {
+    padding: 1%;
+   margin-left: -1%;
+ 
+    width: 100%;
+
+
+  
+    display: flex;
+    gap: 16px;
+  }
+  
+  .grow1 { flex-grow: 1; }
+
+.botones div
+{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.beneficios {
+    width: 100%;
+  
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+  .beneficios div
+  {
+background-color: rgb(204, 31, 31);
+
+  }
+.beneficios div h3
+{
+    text-align: center;
+}
+
+.Pruebas-Sociales {
+    width: 100%;
+  
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+ 
+  .Pruebas-Sociales div
+  {
+    background-color: rgb(56, 56, 187);
+    margin-top: 2%;
+    border-radius: 10%;
+    margin-bottom: 2%;
+  }
+
+
+
+
+
+
+
+
+
+.productos {
+  
+    
+}
+
+.productos div {
+    
+   
+    
+}
+
+.productos img {
+   
+}
+
+.productos div p {
+
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+}
+
+
+footer section div img{
+    width: 2.5%;
+    height: auto;
+    float: left;
+    padding-bottom: 1%;    
+    padding-left: 4%;
+    padding-top: 2.5%;
+}
+
+
+footer section div h2{
+    color: white;
+    text-align: center;  
+    float: left;
+    padding-top: 2%;
+    font-size: larger;
+}
+
+
+footer section .logoFooter img{
+    width: 6%;
+    height: auto;
+    float: right;
+    padding-bottom: 1%;    
+    padding-right: 1%;
+    padding-top: 1.5%;
+}
