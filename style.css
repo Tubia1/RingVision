@@ -70,7 +70,11 @@ main h4{
   {
     text-align: center;
   }
-  
+  .visual-Argumento img {
+    width: 60%;
+    height: auto;
+  }  
+
 
 
 .botones {
@@ -265,4 +269,49 @@ footer section .logoFooter img{
     padding-bottom: 1%;    
     padding-right: 1%;
     padding-top: 1.5%;
+}
+.titulo {
+    text-align: center;
+    color: blue;
+    
+}
+.titulo p {
+    color: black;
+    font-size: 120%;
+}
+.Productos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.Productos div {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  width: 280px; /* cada tarjeta mide lo mismo */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.Productos img {
+  width: 100%;
+  border-radius: 8px;
+}
+.Merchandising h1 {
+    text-align: center;
+    font-size: 200%;
+    color : blue;
+    
+}
+.Merchandising p {
+    text-align: center;
+    font-size: 130%;
+  
+}
+.Merchandising img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
 }
