@@ -289,7 +289,7 @@ footer section .logoFooter img{
   background: white;
   border-radius: 12px;
   padding: 15px;
-  width: 280px; /* cada tarjeta mide lo mismo */
+  width: 50%; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 .Productos img {
@@ -314,4 +314,10 @@ footer section .logoFooter img{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2%;
+}
+.certificados {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
