@@ -578,3 +578,58 @@ footer section .logoFooter img{
     padding-top: 1.5%;
 }
 
+.certificados{
+
+   width: 80%;
+    margin: 3% auto;
+    padding: 3%;
+    background-color: #f9f9fb;
+    border-radius: 4%;
+    box-shadow: 0px 0px 7px 10px rgba(0,0,0,0.06);
+    display: grid;
+    gap: 1%;
+}
+.certificados h1{
+    text-align: center;
+    font-size: 200%;
+    color : blue;
+    grid-column: span 2; 
+    margin-bottom: 2%;
+}
+.certificados p{
+    text-align: center;
+    font-size: 120%;
+    grid-column: span 2; 
+    margin-bottom: 2%;
+}
+.certificados img {
+      width: 25%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.certificados div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mandar-a{
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 2%;
+
+}
+.mandar-a a {
+    display: inline-block;
+    padding: 1% 2%;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4%;
+   
+}
+
+.mandar-a a:hover {
+    background-color: #2980b9;
+}
