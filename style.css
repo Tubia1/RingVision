@@ -246,25 +246,32 @@ main h4{
 }
 
 .Productos div {
-  background: white;
+  background: #f9f9fb;
   border-radius: 12px;
   padding: 15px;
   width: 50%; 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 1px 1px rgba(54, 51, 51, 0.1);
 }
 .Productos img {
   width: 100%;
   border-radius: 8px;
 }
-.Merchandising div {
-  background: white;
-  border-radius: 12px;
-  padding: 2%;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Merchandising
+{
+  
+  width: 100%; 
 }
+.Merchandising div {
+    background: #f9f9fb;
+    border-radius: 12px;
+width: 32%;
+height: 38%;
+display: inline-block;
+margin-right: 1%;
+    box-shadow: 1px 1px 1px 1px rgba(54, 51, 51, 0.1);
+
+}
+
 .Merchandising h1{
     text-align: center;
     color: blue;
@@ -276,6 +283,8 @@ main h4{
   width: 30%;
   border-radius: 8px;
   margin-bottom: 10px;
+  display: flex;
+  
 }
 .Merchandising p {
   font-size: 120%;
@@ -408,7 +417,7 @@ main h4{
 
 .personalizacion-grabado {
     width: 80%;
-    margin: 3% auto;
+    margin: 3%;
     padding: 3%;
     background-color: #f9f9fb;
     border-radius: 4%;
