@@ -471,6 +471,7 @@ margin-right: 1%;
     margin: 1.5%;
     font-size: 100%;
     color: #2c3e50;
+    
 }
 
 .personalizacion-grabado form p {
@@ -486,7 +487,7 @@ margin-right: 1%;
 }
 
 .personalizacion-grabado button {
-    width: 30%;
+   width: 30%;
     padding: 2%;
     border-radius: 2%;
     border: none;
@@ -642,3 +643,16 @@ footer section .logoFooter img{
 .mandar-a a:hover {
     background-color: #2980b9;
 }
+.FormContacto {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 120%;
+     width: 80%; 
+    margin: 3%; 
+    padding: 3%;
+    background-color: #f9f9fb;
+    border-radius: 4%; 
+    box-shadow: 0px 0px 7px 10px rgba(0,0,0,0.06);
+    margin-left: 7%;
+}
+
